@@ -1,0 +1,6 @@
+{
+	"name": "Ingestion_S3_to_ADLS",
+	"properties": {
+		"annotations": []
+	}
+}
