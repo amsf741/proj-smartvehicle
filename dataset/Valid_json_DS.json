@@ -1,0 +1,19 @@
+{
+	"name": "Valid_json_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_proj1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "staging",
+				"fileSystem": "input"
+			}
+		},
+		"schema": {}
+	}
+}
