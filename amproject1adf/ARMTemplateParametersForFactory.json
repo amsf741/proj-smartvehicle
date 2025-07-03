@@ -8,6 +8,12 @@
 		"ADLS_proj1_accountKey": {
 			"value": ""
 		},
+		"SQL_DB_LS_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase_LS_password": {
+			"value": ""
+		},
 		"ADLS_proj1_properties_typeProperties_url": {
 			"value": "https://amproject1.dfs.core.windows.net/"
 		},
@@ -23,6 +29,27 @@
 		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://amproject1keyvault.vault.azure.net/"
+		},
+		"SQL_DB_LS_properties_typeProperties_server": {
+			"value": "amproject1dbserver1.database.windows.net"
+		},
+		"SQL_DB_LS_properties_typeProperties_database": {
+			"value": "azuredbproject1"
+		},
+		"SQL_DB_LS_properties_typeProperties_userName": {
+			"value": "Amsqladmin"
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_server": {
+			"value": "amproject1dbserver1.database.windows.net"
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_database": {
+			"value": "proj1azuresqldb"
+		},
+		"AzureSqlDatabase_LS_properties_typeProperties_userName": {
+			"value": "Amsqladmin"
+		},
+		"Storage_Trigger_For_JSON_properties_typeProperties_scope": {
+			"value": "/subscriptions/1709eb87-a39f-427e-aa29-14121327f7a4/resourceGroups/Project1/providers/Microsoft.Storage/storageAccounts/amproject1"
 		}
 	}
 }
